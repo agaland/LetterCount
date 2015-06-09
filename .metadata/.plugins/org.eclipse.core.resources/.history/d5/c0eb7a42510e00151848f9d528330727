@@ -8,7 +8,6 @@ public class Main {
 		String content=getContent("test.txt");
 		HashMap<String,Integer> map = new HashMap<String,Integer>();
 		count(content, map);
-		System.out.println(map.entrySet());
 	}
 
 private static void count(String content, HashMap<String, Integer> map) {
